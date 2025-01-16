@@ -132,32 +132,9 @@ const productsData = [
         rateCount: 4,
         path: "/product-details/",
     },
+    
     {
         id: 7,
-        tag: "hero-product",
-        tagline: "Give your favourite music a boost.",
-        heroImage: "/images/products/sxb910n-1.png",
-        images: [
-            "/images/products/Sony-XB910N-1.png",
-            "/images/products/Sony-XB910N-2.png",
-            "/images/products/Sony-XB910N-3.png",
-            "/images/products/Sony-XB910N-4.png",
-        ],
-        brand: "Sony",
-        title: "Sony WH-XB910N",
-        info: "Wireless Over-Ear Headphones",
-        category: "Headphones",
-        type: "Over Ear",
-        connectivity: "Wireless",
-        finalPrice: 13489,
-        originalPrice: 19990,
-        quantity: 1,
-        ratings: 679,
-        rateCount: 4,
-        path: "/product-details/",
-    },
-    {
-        id: 8,
         tag: "featured-product",
         images: [
             "/images/products/jbl760nc-1.png",
@@ -179,7 +156,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 9,
+        id: 8,
         tag: "featured-product",
         images: [
             "/images/products/boat255r-1.png",
@@ -201,7 +178,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 10,
+        id: 9,
         images: [
             "/images/products/jbl100-1.png",
             "/images/products/jbl100-2.png",
@@ -222,7 +199,10 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 11,
+        id: 10,
+        tag: "hero-product",
+        tagline: "Give your favourite music a boost."
+        heroImage: "/images/products/sony1000xm4-1.png"
         images: [
             "/images/products/sony1000xm4-1.png",
             "/images/products/sony1000xm4-2.png",
@@ -243,7 +223,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 12,
+        id: 11,
         images: [
             "/images/products/boat228-1.png",
             "/images/products/boat228-2.png",
@@ -264,7 +244,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 13,
+        id: 12,
         tag: "featured-product",
         images: [
             "/images/products/jbl-endu-1.png",
@@ -286,7 +266,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 14,
+        id: 13,
         tag: "featured-product",
         images: [
             "/images/products/boat203-1.png",
@@ -307,29 +287,9 @@ const productsData = [
         rateCount: 5,
         path: "/product-details/",
     },
+    
     {
-        id: 15,
-        images: [
-            "/images/products/sch710n-1.png",
-            "/images/products/sch710n-2.png",
-            "/images/products/sch710n-3.png",
-            "/images/products/sch710n-4.png",
-        ],
-        brand: "Sony",
-        title: "Sony WH-CH710N",
-        info: "Wireless Over-Ear NC Headphones",
-        category: "Headphones",
-        type: "Over Ear",
-        connectivity: "Wireless",
-        finalPrice: 8520,
-        originalPrice: 14990,
-        quantity: 1,
-        ratings: 853,
-        rateCount: 4,
-        path: "/product-details/",
-    },
-    {
-        id: 16,
+        id: 14,
         images: [
             "/images/products/jbl500bt-1.png",
             "/images/products/jbl500bt-2.png",
@@ -350,7 +310,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 17,
+        id: 15,
         images: [
             "/images/products/boat381-1.png",
             "/images/products/boat381-2.png",
@@ -371,7 +331,7 @@ const productsData = [
         path: "/product-details/",
     },
     {
-        id: 18,
+        id: 16,
         images: [
             "/images/products/sony-ex14ap-1.png",
             "/images/products/sony-ex14ap-2.png",
@@ -391,27 +351,7 @@ const productsData = [
         rateCount: 4,
         path: "/product-details/",
     },
-    {
-        id: 19,
-        images: [
-            "/images/products/sxb400-1.png",
-            "/images/products/sxb400-2.png",
-            "/images/products/sxb400-3.png",
-            "/images/products/sxb400-4.png",
-        ],
-        brand: "Sony",
-        title: "Sony WI-XB400",
-        info: "Wireless Extra Bass In-Ear Neckbands",
-        category: "Neckbands",
-        type: "In Ear",
-        connectivity: "Wireless",
-        finalPrice: 2690,
-        originalPrice: 4990,
-        quantity: 1,
-        ratings: 474,
-        rateCount: 4,
-        path: "/product-details/",
-    },
+    
 ];
 
 export default productsData;
