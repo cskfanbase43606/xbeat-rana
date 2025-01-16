@@ -201,8 +201,8 @@ const productsData = [
     {
         id: 10,
         tag: "hero-product",
-        tagline: "Give your favourite music a boost."
-        heroImage: "/images/products/sony1000xm4-1.png"
+        tagline: "Give your favourite music a boost.",
+        heroImage: "/images/products/sony1000xm4-1.png",
         images: [
             "/images/products/sony1000xm4-1.png",
             "/images/products/sony1000xm4-2.png",
